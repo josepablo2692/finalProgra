@@ -1,0 +1,9 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for objeto in objetos %}
+        <div class="objeto">
+            {{ objeto.nombre }}
+        </div>
+    {% endfor %}
+{% endblock content %}

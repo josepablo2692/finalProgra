@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+miav
+db.sqlite3
+.DS_Store
+misitio/media/media/fotos

@@ -1,0 +1,197 @@
+h1 a {
+        color: #FCA205;
+        font-family: 'Lobster';
+    }
+body {
+        padding-left: 15px;
+    }
+
+.page-header {
+    background-color: #FF0000;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    float: right;
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FACC2E;
+	background: #1E4297;
+	background-repeat:repeat-x;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#container
+{
+  display: block;
+  height:auto;
+  position: relative;
+  width: 940px;
+}
+
+#mainpic h1
+{
+	position:absolute;
+text-align:right;
+
+font-size:40px;
+color:#347F34;
+left:550px;
+top:100px;
+}
+
+
+#mainpic h2
+{
+position:absolute;
+text-align:right;
+color:#E1E7F7;
+left:550px;
+top:130px;
+}
+
+#mainpic
+{
+background:url('http://kidszone.es/wp-content/uploads/2012/03/cuadro02.jpg');
+background-repeat:no-repeat;
+width:900px;
+height:402px;
+}
+
+
+
+.lightblue
+{
+color:#1D3FAD
+
+}
+
+
+
+
+#menu
+{
+background:url('http://4.bp.blogspot.com/-9BvjXOU5MOM/T5si1V_ogII/AAAAAAAAOss/oNXJIHn8ULg/s1600/wallpaper-1113289.jpg');
+background-repeat:no-repeat;
+width:940px;
+height:69px;
+float:left;
+clear:both;
+}
+
+#content
+{
+width:880px;
+height:auto;
+background-color:#FFF;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:5px;
+}
+
+#footer
+{
+width:inherit;
+height:auto;
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:block;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:#7198E1;
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;
+	display: inline;
+
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+#menu a:hover{
+	color:#BAD1F3;
+	background: url('http://comma.pe/images/pizarra_bg.jpg') no-repeat;
+}
+
+#content p
+{
+
+}
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}

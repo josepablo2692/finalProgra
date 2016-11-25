@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for producto in productos %}
+        <div class="producto">
+          <h1>
+            <h1><a href="{% url 'blog.views.Detalle_producto' pk=producto.pk %}">{{ producto.nombre }}</a></h1>
+          </h1>
+          <h1>
+            <img src="/media/{{ producto.foto }}" width="45px" heigth="45px"/>
+          </h1>
+          
+
+        </div>
+    {% endfor %}
+{% endblock content %}
